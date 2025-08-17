@@ -1,0 +1,16 @@
+# Fichiers objets
+*.o
+*.obj
+
+# Exécutables
+*.exe
+*.out
+*.out.exe
+
+# Fichiers temporaires
+*~
+*.log
+
+# Dossiers de compilation (si tu en as)
+build/
+bin/
