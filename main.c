@@ -10,7 +10,7 @@
 #define MAX_INPUT 1024
 
 int main() {
-    printf("Debug: Démarrage du programme.\n"); // <-- Ajoutez cette ligne
+    // printf("Debug: Démarrage du programme.\n"); // <-- Ajoutez cette ligne
 
     Intention intents[MAX_INTENTS];
     int intent_count = 0;
@@ -20,7 +20,7 @@ int main() {
     // printf("Debug: %d intentions chargées.\n", intent_count); // <-- Debug
 
     char input[MAX_INPUT];
-    printf("Bienvenue au chatbot ENSIMAG ! Tapez 'quit' pour sortir.\n");
+    printf("Welcome to ENSIMAG chatbot  ! Write 'quit' to quit.\n");
 
     while (1) {
         printf("\nYou: ");
@@ -44,7 +44,7 @@ int main() {
         if (idx >= 0) {
             best_answer(&intents[idx]);
         } else {
-            printf("Chatbot: Je n'ai pas compris.\n");
+            printf("Chatbot: I don't understand.\n");
         }
     }
 
