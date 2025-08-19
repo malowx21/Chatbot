@@ -1,39 +1,39 @@
 intent_name: GREETING
-keywords: hello, hi, salut, bonjour, hey
-answers: Bonjour, je suis le chatbot de l’ENSIMAG. Comment puis-je t’aider ?
+keywords: hello, hi, hey, greetings
+answers: Hello, I am the ENSIMAG chatbot. How can I help you?
 
 intent_name: FAREWELL
-keywords: bye, au revoir, goodbye, ciao
-answers: Au revoir et bonne journée à l’ENSIMAG !
+keywords: bye, goodbye, see you, farewell
+answers: Goodbye and have a great day at ENSIMAG!
 
-intent_name: FORMATION
-keywords: formation, cursus, parcours, spécialité, options
-answers: L’ENSIMAG propose des formations en informatique, mathématiques appliquées et finance. Tu veux que je détaille un parcours ?
+intent_name: TRAINING
+keywords: training, program, curriculum, courses, options
+answers: ENSIMAG offers programs in computer science, applied mathematics, and finance. If you want more details check on the site.
 
-intent_name: FILIERE
-keywords: filière, spécialité, parcours, option
-answers: À l’ENSIMAG, tu peux choisir entre plusieurs filières : Informatique, Mathématiques appliquées, et Ingénierie financière., Les principales filières sont : Informatique, Mathématiques appliquées et Modélisation, et Finance. Tu veux plus de détails sur l’une d’elles ?
+intent_name: TRACK
+keywords: track, specialization, major, option
+answers: At ENSIMAG, you can choose between several tracks: Computer Science, Applied Mathematics, and Financial Engineering. / The main tracks are: Computer Science, Applied Mathematics and Modeling, and Finance.
 
 intent_name: ADMISSION
-keywords: admission, concours, inscription, intégrer, candidature
-answers: L’admission à l’ENSIMAG se fait principalement via le concours Mines-Ponts, mais aussi sur dossier pour certains parcours. Tu veux que je t’explique les différentes voies ?
+keywords: admission, entrance, application, apply, enrollment
+answers: Admission to ENSIMAG is mainly through the CCP entrance exam, but some programs also accept applications by file.
 
-intent_name: STAGES
-keywords: stage, internship, entreprise, projets
-answers: Chaque étudiant doit réaliser plusieurs stages durant son cursus : un stage court en 1A et un stage long en 2A/3A.
+intent_name: INTERNSHIPS
+keywords: internship, placement, company, projects
+answers: Each student must complete several internships during their studies: a short internship in the first year(optional) and a long internship in the second or third year.
 
-intent_name: ALTERNANCE
-keywords: alternance, apprentissage, contrat, professionnalisation
-answers: L’ENSIMAG propose un cursus en alternance à partir de la 2e année, permettant aux étudiants de combiner cours et expérience en entreprise.
+intent_name: APPRENTICESHIP
+keywords: apprenticeship, work-study, contract, professionalization
+answers: ENSIMAG offers a work-study program starting from the second year, allowing students to combine courses and company experience.
 
 intent_name: INTERNATIONAL
-keywords: échange, international, erasmus, séjour à l’étranger
-answers: L’ENSIMAG propose de nombreux échanges internationaux grâce à ses partenariats avec des universités dans le monde entier.
+keywords: exchange, international, erasmus, study abroad
+answers: ENSIMAG offers many international exchange opportunities thanks to partnerships with universities all over the world.
 
 intent_name: CONTACT
-keywords: contact, adresse, email, téléphone, secrétariat
-answers: Tu peux contacter le secrétariat pédagogique de l’ENSIMAG à l’adresse suivante : ensimag@grenoble-inp.fr
+keywords: contact, address, email, phone, secretary
+answers: You can contact the academic office of ENSIMAG at the following address: ensimag@grenoble-inp.fr
 
-intent_name: VIE_ETUDIANTE
-keywords: vie étudiante, associations, clubs, événements
-answers: La vie étudiante est très riche à l’ENSIMAG, avec de nombreuses associations étudiantes (BDE, clubs techniques, sportifs et culturels).
+intent_name: STUDENT_LIFE
+keywords: student life, associations, clubs, events
+answers: Student life at ENSIMAG is very active, with many student associations (student union, technical, sports, and cultural clubs).

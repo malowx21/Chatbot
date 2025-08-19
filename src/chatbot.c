@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include "delete.h"
-#include "comparaison.h"
 #include "lowercase.h"
 #include "intention.h"
 #include "chatbot.h"
@@ -11,7 +10,7 @@
 int count_intent(char *input, Intention *intents){
     int count= 0;
     for (int index=0; index< intents->keyword_score; index++){
-        while (strstr(input,intents->keywords[index])!= NULL){
+        if (strstr(input,intents->keywords[index])!= NULL){
             count++;
         }
     }
@@ -21,11 +20,11 @@ int count_intent(char *input, Intention *intents){
 
 
 int index_max_intent(char *input, Intention intents[], int intent_count){
-    int minimum = -1;
+    int maxi = -1;
     int result;
     for (int i=0; i< intent_count; i++){
-        if (count_intent(input, &intents[i])> minimum ) {
-            minimum=  count_intent(input, &intents[i]);
+        if (count_intent(input, &intents[i])> maxi ) {
+            maxi=  count_intent(input, &intents[i]);
             result=i;
 
         }        

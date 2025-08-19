@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "comparaison.h": "c",
+        "delete.h": "c",
+        "chatbot.h": "c"
+    }
+}
