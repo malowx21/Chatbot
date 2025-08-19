@@ -35,7 +35,7 @@ int main() {
         // printf("Debug: Input traité: '%s'\n", input); // <-- Debug
 
         if (strcmp(input, "quit") == 0) {
-            printf("Chatbot: Au revoir !\n");
+            printf("Chatbot: Good bye !\n");
             break;
         }
 

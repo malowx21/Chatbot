@@ -155,6 +155,7 @@ void load_intention(char *filename, Intention intents[], int *intent_count){
 
 void free_intents(Intention intents[], int intent_count) {
     for (int i = 0; i < intent_count; i++) {
+        free(intents[i].name); 
         for (int j = 0; j < intents[i].keyword_score; j++) {
             free(intents[i].keywords[j]); 
         }
