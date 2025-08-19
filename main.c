@@ -23,7 +23,7 @@ int main() {
     printf("Bienvenue au chatbot ENSIMAG ! Tapez 'quit' pour sortir.\n");
 
     while (1) {
-        printf("\nVous: ");
+        printf("\nYou: ");
         if (!fgets(input, sizeof(input), stdin)) {
             // printf("Debug: Fin de lecture (EOF).\n"); // <-- Debug
             break;
